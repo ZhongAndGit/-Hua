@@ -1,0 +1,36 @@
+.lineProgress{
+  height: 5px;
+  border-radius: 3px;
+  background: #80808073;
+  position: relative;
+  z-index: 10;
+}
+.lineProgress .lineInside{
+  width: 0%;
+  height: 5px;
+  border-radius: 3px;
+  background: red;
+  position: absolute;
+  z-index: 1;
+}
+.lineProgress .buffere{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 5px;
+  border-radius: 3px;
+  background: white;
+
+}
+.lineProgress .dot{
+    height: 15px;
+    border-radius: 50%;
+    width: 15px;
+    background: red;
+    position: absolute;
+    top: -5px;
+    left: 0;
+    z-index: 2;
+    margin-left: -7.5px;
+}

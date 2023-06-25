@@ -1,0 +1,24 @@
+.video .topInput{
+  padding: 10px 20px;
+  background: red;
+  display: flex;
+  justify-content: space-between;
+}
+.inputStyle{
+  height: 30px;
+  width: 75%;
+  border-radius: 15px;
+  padding: 0 15px;
+  background: white;
+}
+.restInput{
+  border: none;
+  height: 100%;
+  box-sizing: border-box;
+  outline:none;
+}
+.topInput .icon{
+  font-size: 20px;
+  margin-top: 5px;
+  color: white;
+}

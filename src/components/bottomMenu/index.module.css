@@ -1,0 +1,26 @@
+.bottomMenu{
+  height: 60px;
+  padding: 10px 0;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  background: white;
+  box-shadow: 0 0 2px gray ;
+  font-size: 12px;
+  text-align: center;
+ 
+}
+.menuList .icon{
+  font-size: 20px;
+}
+.menuList.active{
+  color: red;
+  transform: scale(1.2);
+}
+.activeClass {
+  text-decoration: none;
+  color: inherit;
+}
